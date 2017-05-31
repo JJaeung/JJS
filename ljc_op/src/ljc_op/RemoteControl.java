@@ -8,7 +8,7 @@ public class RemoteControl {
 		machine1 = SM;
 	}
 	
-	//boolean 노래검색(노래이름)
+	//boolean 노래검색(노래이름) - 노래가 있는지 사용자에게 제목을 입력받아 기계에 시키는 함수
 	public boolean searchSong(String songname){
 		boolean check;
 		System.out.println("리모콘 > 노래방기계 내에서 노래가 있는지 검색합니다.");

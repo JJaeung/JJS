@@ -3,13 +3,12 @@ package ljc_op;
 public class Guest {
 	private int coin;
 	private String songname;
-	private SingRoom GuestSingRoom;
-	//singroom 을 get으로 가져와야함
+	private SingRoom GuestSingRoom;//손님과 부스가 1:1 대응으로 감독에게 지시받고 들어가는 것 이기떄문에 소유관계로 설정
 	
 	public Guest()
 	{
 		coin = 10;
-		songname = "시끄러운";
+		songname = "시끄러운";//부를 노래 ( 차후 리스트나 입력받는 형식으로 수정)
 		GuestSingRoom = new SingRoom();
 	}
 	
