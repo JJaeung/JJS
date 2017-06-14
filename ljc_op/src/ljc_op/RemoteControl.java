@@ -29,7 +29,7 @@ public class RemoteControl {
 	public void startButton()
 	{
 		//시작버튼을 누른다
-		System.out.println("remocon1 > 노래방기계, 가장 처음 예약된 노래를 시작시켜주세요.");
+		System.out.println("remocon1 > 노래방기계, 예약된 노래를 시작시켜주세요.");
 		machine1.startSong();
 
 	}

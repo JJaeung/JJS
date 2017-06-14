@@ -4,7 +4,7 @@ public class Director {
 	private int guestCoin;//손님에게 입력시킬 코인을 정함
 	public Director()
 	{
-		guestCoin = 10;
+		guestCoin = 3;
 	}
 	
 	public static void main(String[] args)
